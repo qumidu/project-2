@@ -60,6 +60,11 @@ a {
   text-shadow: 1px 0 0 currentColor;
 }
 
+.nav li.active a {
+  color: #2f3a3b;
+  text-shadow: 1px 0 0 currentColor;
+}
+
 .action .action-link {
   margin-left: 157.5px;
   color: #494949;
