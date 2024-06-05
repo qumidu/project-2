@@ -25,9 +25,8 @@ a {
 }
 
 .desc {
-  color: #9da6a5;
+  color: #767e7e;
   font-size: 1.8rem;
-  line-height: 1.78;
 }
 
 .btn {
@@ -140,7 +139,10 @@ a {
   line-height: 1.16;
 }
 
-.hero .content-block .desc {
+.hero .content-block .hero-desc {
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 1.78;
   margin-top: 46px;
   width: 374px;
 }
@@ -327,4 +329,82 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* ===================== features ===================== */
+.features-main-content {
+  padding: 130px 0 75px;
+  /* background: aqua; */
+}
+
+.features .body {
+  width: 1024px;
+  max-width: calc(100% - 48px);
+  margin-right: auto;
+}
+
+/* ========== features top ========== */
+.features .features-top {
+  width: 591px;
+}
+
+.features .features-top .small-title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+.features .features-top .heading-lv2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+  margin: 18px 0;
+}
+
+.features .features-top .features-desc {
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+/* ========== features bottom ========== */
+.features .features-bottom {
+  display: flex;
+}
+
+.features .features-bottom .icon {
+  width: 102px;
+  height: 106px;
+  margin-bottom: 26px;
+}
+
+.features .features-bottom .title {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.features .features-bottom .features-desc {
+  color: #9da6a5;
+  line-height: 1.69;
+}
+
+.features .features-bottom .item-1 {
+  width: 168px;
+  height: 259px;
+  margin-right: 209px;
+}
+
+.features .features-bottom .item-2 {
+  width: 223px;
+  height: 259px;
+  margin-right: 200px;
+}
+.features .features-bottom .item-3 {
+  width: 224px;
+  height: 259px;
 }
