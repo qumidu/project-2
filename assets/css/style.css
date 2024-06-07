@@ -431,7 +431,7 @@ a {
 
 /* ===================== courses ===================== */
 .courses .body {
-  padding: 75px 0 194.5px;
+  padding: 75px 0 257px;
   overflow: hidden;
   /* background: aqua; */
 }
@@ -547,4 +547,45 @@ a {
   border-radius: 50%;
   background: #1ebfc1;
   margin-right: 10px;
+}
+
+/* ===================== statistics ===================== */
+.stat .stat-main-content {
+  padding: 132px 0;
+  /* background: aqua; */
+}
+
+.stat .body {
+  display: flex;
+  width: 862px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+  height: 131px;
+  justify-content: space-between;
+  align-items: center;
+  /* background: aqua; */
+}
+
+.stat .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat .detail strong{
+  color: #0D1111;
+text-align: center;
+font-size: 6.2rem;
+font-weight: 700;
+line-height: normal;
+}
+
+.stat .detail span {
+  display: block;
+  color: #767E7E;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+  margin-top: 11px;
 }
